@@ -19,6 +19,15 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 
 ```html
 <!-- Code goes here -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+</body>
+</html>
 ```
 
 2.) What are the differences between these tags?
@@ -34,6 +43,7 @@ This is a review of your working knowledge of HTML and CSS. Note that this revie
 ```
 Explain here.
 ```
+img creates an image, div creates a divider
 
 ---
 
@@ -59,6 +69,11 @@ Explain here.
 ```
 Explain here
 ```
+inline - only styles the specific element
+
+internal - only styles specific html file
+
+external - multiple files can use the css file 
 
 2.) Below are some different CSS selectors. Use CSS comments to describe what each selector will do.
 
@@ -67,26 +82,34 @@ Explain here
 div {
   border-radius: 50%;
 }
+/* make the corners more rounded */
 
 .header p {
   font-size: 18px;
 }
+/* change font size in p */
 
 .footer {
   position: absolute;
   bottom: 0;
 }
+/* position footer 0px from the bottom absolutely */
 
 .splash-image {
   background-image: url("../images/ocean.jpg");
   background-size: cover;
   width: 100%;
 }
+/* sets class background-image to completely cover the area and width 100% of page */
 
 .ninja:hover {
   display: none;
   color: black;
 }
+
+/* hover over the class ninja display to none and color to black */
+
+
 ```
 
 
