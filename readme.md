@@ -87,13 +87,13 @@ div {
 .header p {
   font-size: 18px;
 }
-/* change font size in p */
+/* change font size in class header p */
 
 .footer {
   position: absolute;
   bottom: 0;
 }
-/* position footer 0px from the bottom absolutely */
+/* position in class footer 0px from the bottom absolutely */
 
 .splash-image {
   background-image: url("../images/ocean.jpg");
